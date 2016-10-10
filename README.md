@@ -15,7 +15,7 @@ git config --global user.email "Your email"
 
 ## Signing commits using your GPG key (Windows)
 
-### Prerequisities
+### Prerequisites
 
 You have
 * A GPG key pair created
