@@ -1,6 +1,8 @@
 # git-setup
 Git commands to setup your development environment
 
+## Basics
+
 Set your name
 ```
 git config --global user.name "Your name"
