@@ -1,5 +1,5 @@
 # git-setup
-> Git commands to setup your development environment
+> Git commands to setup your development environment.
 
 ## Basics
 
