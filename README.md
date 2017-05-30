@@ -1,4 +1,4 @@
-# git-setup
+# Git Setup
 > Git commands to setup your development environment.
 
 ## Basics
