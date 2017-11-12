@@ -31,9 +31,16 @@ Sign every commit from now on
 $ git config --global commit.gpgsign true
 ```
 
-Set location of Gpg4win
+Get location of GnuPG gpg.exe
 ```bash
-$ git config --global gpg.program "C:/Program Files (x86)/GNU/GnuPG/gpg2.exe"
+$ where gpg
+C:\Program Files\Git\usr\bin\gpg.exe
+C:\Program Files (x86)\GnuPG\bin\gpg.exe
+```
+
+Set location of GnuPG gpg.exe in Git config
+```bash
+$ git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
 ```
 
 Finally, add your GPG key to your GitHub account [here](https://github.com/settings/keys).
