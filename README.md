@@ -16,6 +16,12 @@ Set your email
 $ git config --global user.email "Your email"
 ```
 
+Set text editor
+
+```bash
+$ git config --global core.editor "vim"
+```
+
 ## Signing commits using your GPG key (Windows)
 
 ### Prerequisites
