@@ -58,3 +58,10 @@ $ git config --global gpg.program "C:\Program Files\Git\usr\bin\gpg.exe"
 ```
 
 Finally, add your GPG key to your GitHub account [here](https://github.com/settings/keys).
+
+### WSL
+
+```bash
+$ git config --global gpg.program "/mnt/c/Program Files/Git/usr/bin/gpg.exe"
+$ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
+```
