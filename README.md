@@ -63,5 +63,5 @@ Finally, add your GPG key to your GitHub account [here](https://github.com/setti
 
 ```bash
 $ git config --global gpg.program "/mnt/c/Program Files/Git/usr/bin/gpg.exe"
-$ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
+$ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe"
 ```
